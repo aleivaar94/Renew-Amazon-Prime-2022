@@ -58,7 +58,7 @@ st.header('Amazon Order History (sample data)')
 
 # Load data
 # order_history_csv = Path(__file__)/'datasets/Retail.OrderHistory.1.csv'
-order_history = pd.read_csv('https://github.com/aleivaar94/Renew-Amazon-Prime-2022/blob/master/datasets/Retail.OrderHistory.1.csv')
+order_history = pd.read_csv('master/datasets/Retail.OrderHistory.1.csv')
 st.dataframe(order_history.head())
 
 st.markdown('---') # line divider
