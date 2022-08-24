@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from pathlib import Path
 
 
 st.set_page_config(page_title="Renew Amazon Prime 2022",layout="wide")
@@ -55,8 +56,9 @@ with col3:
 st.markdown('#') # space separator
 st.header('Amazon Order History (sample data)')
 
-# Load data and drop columns with sensitive information
-order_history = pd.read_csv("datasets\Retail.OrderHistory.1.csv")
+# Load data
+order_history_csv = Path(__file__).parents[1] / "datasets\Retail.OrderHistory.1.csv"
+order_history = pd.read_csv(order_history_csv)
 st.dataframe(order_history.head())
 
 st.markdown('---') # line divider
