@@ -56,7 +56,7 @@ st.markdown('#') # space separator
 st.header('Amazon Order History (sample data)')
 
 # Load data and drop columns with sensitive information
-order_history = pd.read_csv(r"C:\Users\Ale\Documents\Data-Science-Projects\GitHub\amazon-orders-2022\datasets\Retail.OrderHistory.1.csv")
+order_history = pd.read_csv("datasets\Retail.OrderHistory.1.csv")
 st.dataframe(order_history.head())
 
 st.markdown('---') # line divider
