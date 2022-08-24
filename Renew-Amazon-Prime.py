@@ -57,7 +57,7 @@ st.markdown('#') # space separator
 st.header('Amazon Order History (sample data)')
 
 # Load data
-order_history_csv = Path(__file__).parents[1] / 'datasets/Retail.OrderHistory.1.csv'
+order_history_csv = Path(__file__)/'datasets/Retail.OrderHistory.1.csv'
 order_history = pd.read_csv(order_history_csv)
 st.dataframe(order_history.head())
 
