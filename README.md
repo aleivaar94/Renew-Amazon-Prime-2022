@@ -1,3 +1,4 @@
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 
 # Renew Amazon Prime? A Cost-Benefit Analysis
 
@@ -44,8 +45,3 @@ As a conservative measure, shipping rates are estimated as $7.99 per shipment.
 
 ### Conclusion
 Although Amazon prime provides various benefits such as Prime Video, Prime Music, free shipping and exclusive deals, the only benefits I use are free shipping and exclusive deals. Based on my Amazon order history, prime provides value to me by lowering the total shipping costs I would have paid in a year, plus getting faster shipping. For example, in 2021 I would have paid $108.74 more on shipping costs if I was not a prime member. Therefore, next year I will renew my prime membership even if its price increased 20%. And I will continue to evaluate my decision on a yearly basis.
-
-
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://alejandroleiva.notion.site/Data-Portfolio-5c5257235e044c6b9a8846131edac973)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ale-leivaar/)
